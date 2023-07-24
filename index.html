@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Entrada</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+  font-family: GroteskRegular;
+  color: white;
+  background-color: #12100b;
+}
+
+.container {
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 18rem;
+    height: auto;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: GroteskBold;
+  font-weight: bold;
+  color: #d2232a;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.tutorial {
+    max-width: 10rem;
+    height: auto;
+}
+
+.marcador {
+    max-width: 5rem;
+    height: auto;
+}
+
+.content p {
+  margin-bottom: 10px;
+}
+.fixed-button-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f0f0f0;
+   /* Adicione uma cor de fundo para destacar o botão */
+  text-align: center;
+}
+
+.fixed-button {
+  width: 100%;
+  font-size: 24px;
+}
+
+.text-btn {
+    font-family: GroteskBold;
+  font-weight: bold;
+  color: #12100b;
+  font-size: 24px;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="logo">
+      <!-- Inserir a logo aqui -->
+      <img src="assets/logo.png">
+    </div>
+
+    <h1 class="title">Como usar</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="content">
+          <p>Procure por estes marcadores pelas páginas do livro</p>
+          <img class="marcador" src="assets/tut1.png" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="content">
+          <p>Utiliza a câmera desta aplicação e aponte para um dos marcadores do livro</p>
+          <img class="tutorial" src="assets/tut2.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="fixed-button-wrapper">
+        <a href="https://sousa-l.github.io/mis1ano/" class="btn btn-custom"><span class="text-btn">Iniciar</span></a>
+      </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
